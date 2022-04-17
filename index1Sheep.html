@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animale domestice</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="farm.js"></script>
+</head>
+<body>
+
+<div id="content1">
+    <a href="farm.html"><img src="images/home.png" id="logoHome" onmousemove="reincepeSound()"></a>
+    <img src="images/go.png" id="logoGo" onclick="inapoiIndex1()">
+    <img src="images/girl.png" id="logoFarmer" onclick="sheepSound()">
+    <img src="images/girl.png" id="logoFarmer2" onclick="sheepText()">
+
+    <div id="produse"></div>
+    <img id="cat-image" src="images/cat.png" onclick="maiIncearca()">
+    <img id="horse-image" src="images/horse.png" onclick="maiIncearca()">
+    <img id="horse2-image" src="images/horse2.png" onclick="maiIncearca()">
+    <img id="cow-image" src="images/cow.png" onclick="maiIncearca()">
+    <img id="chicken-image" src="images/chicken.png" onclick="maiIncearca()">
+    <img id="chicken1-image" src="images/chicken1.png" onclick="maiIncearca()">
+    <img id="turkey-image" src="images/turkey.png" onclick="maiIncearca()">
+    <img id="pig-image" src="images/pig.png" onclick="maiIncearca()">
+    <img id="sheep-image" src="images/sheep.png" onclick="sheepShow()">
+    <img id="sheep-image2" src="images/sheep.png">
+    <img id="goat-image" src="images/goat.png" onclick="maiIncearca()">
+    <img id="goat2-image" src="images/goat2.png" onclick="maiIncearca()">
+    <img id="dog-image" src="images/dog.png" onclick="maiIncearca()">
+    <img id="duck-image" src="images/duck.png" onclick="maiIncearca()">
+
+    <audio id="sheepSound" autoplay >
+        <source src="sounds/DaClickPeOaie.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="sheepText">
+        <source src="sounds/oaie.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="maiIncearcaText">
+        <source src="sounds/incearca.m4a" type="audio/mpeg">
+    </audio>
+
+    <audio id="inapoi">
+        <source src="sounds/inapoi.m4a" type="audio/mpeg">
+    </audio>
+
+    <audio id="reincepe">
+        <source src="sounds/reincepe%20jocul.m4a" type="audio/mpeg">
+    </audio>
+    <audio id="urmatorul">
+        <source src="sounds/raspuns%20corect.m4a" type="audio/mpeg">
+    </audio>
+</div>
+
+<div id="starBar">
+    <img src="images/star1.png" id="star1"style="visibility:hidden"> <img src="images/star2.png" id="star12" style="visibility: visible"><br><br><br>
+    <img src="images/star1.png" id="star2"><img src="images/star2.png" id="star22"><br><br><br>
+    <img src="images/star1.png" id="star3"><img src="images/star2.png" id="star32"><br><br><br>
+    <img src="images/star1.png"id="star4"><img src="images/star2.png" id="star42"><br><br><br>
+    <img src="images/star1.png"id="star5"><img src="images/star2.png" id="star52"><br><br><br>
+    <img src="images/star1.png"id="star6"><img src="images/star2.png" id="star62">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animale domestice</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="farm.js"></script>
+</head>
+<body onload="loadBallons()">
+
+<div id="content2">
+
+    <a href="farm.html"><img src="images/home.png" id="logoHome" onmousemove="reincepeSound()"></a>
+    <img src="images/go.png" id="logoGo" onclick="inapoiIndex1()">
+    <table id="ballon" align="center">
+        <tr>
+            <td id="1" class="elem" onclick="check(1)"></td>
+            <td id="2" class="elem"  onclick="check(2)"></td>
+            <td id="3" class="elem"  onclick="check(3)"></td>
+            <td id="4" class="elem"  onclick="check(4)"></td>
+            <td id="5" class="elem"  onclick="check(5)"></td>
+            <td id="6" class="elem"  onclick="check(6)"></td>
+            <td id="7" class="elem"  onclick="check(7)"></td>
+            <td id="8" class="elem"  onclick="check(8)"></td>
+            <td id="9" class="elem"  onclick="check(9)"></td>
+            <td id="10" class="elem"  onclick="check(10)"></td>
+        </tr>
+
+        <tr>
+            <td id="11" class="elem"  onclick="check(11)"></td>
+            <td id="12" class="elem"  onclick="check(12)"></td>
+            <td id="13" class="elem"  onclick="check(13)"></td>
+            <td id="14" class="elem"  onclick="check(14)"></td>
+            <td id="15" class="elem"  onclick="check(15)"></td>
+            <td id="16" class="elem"  onclick="check(16)"></td>
+            <td id="17" class="elem"  onclick="check(17)"></td>
+            <td id="18" class="elem"  onclick="check(18)"></td>
+            <td id="19" class="elem"  onclick="check(19)"></td>
+            <td id="20" class="elem"  onclick="check(20)"></td>
+        </tr>
+
+        <tr>
+            <td id="21" class="elem"  onclick="check(21)"></td>
+            <td id="22" class="elem"  onclick="check(22)"></td>
+            <td id="23" class="elem"  onclick="check(23)"></td>
+            <td id="24" class="elem"  onclick="check(24)"></td>
+            <td id="25" class="elem"  onclick="check(25)"></td>
+            <td id="26" class="elem"  onclick="check(26)"></td>
+            <td id="27" class="elem"  onclick="check(27)"></td>
+            <td id="28" class="elem"  onclick="check(28)"></td>
+            <td id="29" class="elem"  onclick="check(29)"></td>
+            <td id="30" class="elem"  onclick="check(30)"></td>
+        </tr>
+    </table>
+   <a href="index3.html"><img src="images/go.png" id="goButton"></a>
+    <br>
+    <audio id="win" >
+        <source src="sounds/multumesc.m4a" type="audio/mpeg">
+    </audio>
+
+    <audio id="lose">
+        <source src="sounds/incearca.m4a" type="audio/mpeg">
+    </audio>
+
+    <audio id="sarcina" autoplay>
+        <source src="sounds/balon.m4a" type="audio/mpeg">
+    </audio>
+
+    <audio id="inapoi">
+        <source src="sounds/inapoi.m4a" type="audio/mpeg">
+    </audio>
+
+    <audio id="reincepe">
+        <source src="sounds/reincepe%20jocul.m4a" type="audio/mpeg">
+    </audio>
+    <audio id="bravoo">
+        <source src="sounds/Bravo.mp3" type="audio/mpeg">
+    </audio>
+    <img src="images/girl.png" id="logoFarmer" onclick="salveazaSound()">
+
+</div>
+
+<div id="starBar">
+    <img src="images/star1.png" id="star1"style="visibility:hidden"> <img src="images/star2.png" id="star12" style="visibility: visible"><br><br><br>
+    <img src="images/star1.png" id="star2" style="visibility:hidden"><img src="images/star2.png" id="star22" style="visibility: visible"><br><br><br>
+    <img src="images/star1.png" id="star3" style="visibility:hidden"><img src="images/star2.png" id="star32" style="visibility: visible"><br><br><br>
+    <img src="images/star1.png"id="star4" style="visibility:hidden"><img src="images/star2.png" id="star42" style="visibility: visible"><br><br><br>
+    <img src="images/star1.png"id="star5"><img src="images/star2.png" id="star52"><br><br><br>
+    <img src="images/star1.png"id="star6"><img src="images/star2.png" id="star62">
+</div>
+</body>
+</html>

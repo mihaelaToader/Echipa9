@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animale domestice</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="farm.js"></script>
+</head>
+<body onload="loadUmbre()">
+
+<div id="content3">
+    <a href="farm.html"><img src="images/home.png" id="logoHome" onmousemove="reincepeSound()"></a>
+    <img src="images/go.png" id="logoGo" onclick="inapoiIndex2()">
+    <div id="elemente">
+    </div>
+    <img src="images/girl.png" id="logoFarmer" onclick="gasesteSound()">
+
+    <img src="images/calSingur.png" id="calSingur" onclick="shadowChange(4)">
+    <img src="images/gainaSingura.png" id="gainaSingura" onclick="shadowChange(6)">
+    <img src="images/sheep.png" id="oitaSingura" onclick="shadowChange(1)">
+    <img src="images/porcSingur.png" id="porcSingur" onclick="shadowChange(2)">
+    <img src="images/rataSingura.png" id="rataSingura" onclick="shadowChange(3)">
+    <img src="images/vacaSingura.png" id="vacaSingura" onclick="shadowChange(0)">
+
+    <img src="images/grupCai.png" id="grupCai" onclick="maiMultiSound()">
+    <img src="images/grupCapre.png" id="grupCapre" onclick="maiMulteSound()">
+    <img src="images/grupGaini.png" id="grupGaini" onclick="maiMulteSound()">
+    <img src="images/grupGaini2.png" id="grupGaini2" onclick="maiMulteSound()">
+    <img src="images/grupOite.png" id="grupOite" onclick="maiMulteSound()">
+    <img src="images/capraSingura.png" id="capraSingura" onclick="shadowChange(5)">
+    <img src="images/grupPorci.png" id="grupPorci" onclick="maiMultiSound()">
+    <img src="images/grupRate.png" id="grupRate" onclick="maiMulteSound()">
+    <img src="images/grupVacute.png" id="grupVacute" onclick="maiMulteSound()">
+
+    <audio id="gaseste" autoplay>
+        <source src="sounds/20190109%20104507.m4a" type="audio/mpeg" >
+    </audio>
+    <audio id="final">
+        <source src="sounds/bravo%20te%20mai%20astept.m4a" type="audio/mpeg" >
+    </audio>
+    <audio id="maiMulti">
+        <source src="sounds/mai%20multi.m4a" type="audio/mpeg">
+    </audio>
+
+    <audio id="inapoi">
+        <source src="sounds/inapoi.m4a" type="audio/mpeg">
+    </audio>
+    <audio id="maiMulte">
+        <source src="sounds/mai%20multe.m4a" type="audio/mpeg">
+    </audio>
+
+    <audio id="reincepe">
+        <source src="sounds/reincepe%20jocul.m4a" type="audio/mpeg">
+    </audio>
+
+    <audio id="bravoo">
+        <source src="sounds/Bravo.mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+<div id="starBar">
+    <img src="images/star1.png" id="star1"style="visibility:hidden"> <img src="images/star2.png" id="star12" style="visibility: visible"><br><br><br>
+    <img src="images/star1.png" id="star2" style="visibility:hidden"><img src="images/star2.png" id="star22" style="visibility: visible"><br><br><br>
+    <img src="images/star1.png" id="star3" style="visibility:hidden"><img src="images/star2.png" id="star32" style="visibility: visible"><br><br><br>
+    <img src="images/star1.png"id="star4" style="visibility:hidden"><img src="images/star2.png" id="star42" style="visibility: visible"><br><br><br>
+    <img src="images/star1.png"id="star5"  style="visibility:hidden"><img src="images/star2.png" id="star52" style="visibility: visible"><br><br><br>
+    <img src="images/star1.png"id="star6"><img src="images/star2.png" id="star62">
+</div>
+</body>
+</html>
